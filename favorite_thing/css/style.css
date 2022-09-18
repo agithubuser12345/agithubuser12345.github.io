@@ -49,7 +49,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid orangered;
     float: left;
-    width: 180px;
+    width: 180.0px;
 }
 
 div.gallery:hover {
