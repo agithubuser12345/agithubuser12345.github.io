@@ -1,0 +1,45 @@
+.container {
+    margin: 20px 50px;
+    padding: 70px;
+    border: 5px solid orange;
+    background-color: black;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(255, 115, 0);
+}
+
+.nav li {
+    float: left;
+
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+h2,
+h3 {
+    color: orangered;
+}
+
+h1 {
+    color: orangered;
+}
+
+p {
+    color: orange;
+}
