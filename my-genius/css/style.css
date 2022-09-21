@@ -1,0 +1,51 @@
+.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav li {
+    float: left;
+
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+.container {
+    margin: 20px 50px;
+    padding: 70px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 310px;
+    object-fit: contain;
+}
+
+div.gallery:hover {
+    border: 1px solid black;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+div.gallery img {
+    width: 100%;
+
+}
