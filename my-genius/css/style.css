@@ -50,13 +50,12 @@ div.gallery img {
 
 }
 
-/* The dropdown container */
+
 .dropdown {
     float: left;
     overflow: hidden;
 }
 
-/* Dropdown button */
 .dropdown .dropbtn {
     font-size: 16px;
     border: none;
@@ -65,18 +64,17 @@ div.gallery img {
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
-    /* Important for vertical align on mobile phones */
+
     margin: 0;
-    /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+
 .navbar a:hover,
 .dropdown:hover .dropbtn {
     background-color: rgb(0, 0, 0);
 }
 
-/* Dropdown content (hidden by default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -86,7 +84,7 @@ div.gallery img {
     z-index: 1;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
     float: none;
     color: black;
@@ -96,12 +94,12 @@ div.gallery img {
     text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
+
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
