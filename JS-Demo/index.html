@@ -46,9 +46,18 @@
     <p id="ask-name"></p>
 
     <hr>
-    <p id="background-color">Want to change the background?</p>
-    <button onclick="backgroundcolor();">Click here to change the color!</button>
-    <button onclick="backgroundcolorreturn();">Click here to return to the normal color.</button>
+
+    <h2>Background color (New Feature 1)</h2>
+    <p id="bgcolor">Want to change the backgorund color?</p>
+    <button onclick="changebgcolor();">Click here to change the color!</button>
+    <button onclick="changebgcolor2();">Click here to change the color back.</button>
+
+    <hr>
+
+    <h2>Text align (New Feature 2)</h2>
+    <p id="textalign">Want to move this text?</p>
+    <button onclick="textalign();">Click here to move this text!</button>
+    <button onclick="textalign2();">Click here to move the text back.</button>
 
     <script>
         function normalAlice(){
@@ -65,16 +74,23 @@
                 nameParagraph.innerHTML = "Welcome to the batcave sir";
             } else {
                 nameParagraph.innerHTML = "Hello " + name + "! Nice to meet you.";
-            }
-
-        function backgroundcolor(){
-            let bgcolor = document.body.style.backgroundColor = "red"; document.getElementById('background-color'); 
+            }     
         }
 
-        function backgroundcolorreturn() {
-            let bgreturn = document.body.style.backgroundColor = "white"; document.getElementById('backgroundcolor');
+        function changebgcolor() {
+            let color = document.body.style.backgroundColor = "red";
         }
 
+        function changebgcolor2() {
+            let color2 = document.body.style.backgroundColor = "white";
+        }
+
+        function textalign() {
+            let textalign = document.getElementById('textalign').style.textAlign = "center";
+        }
+
+        function textalign2() {
+            let textalign = document.getElementById('textalign').style.textAlign = "left";
         }
     </script>
     <!--good to have script tag at bottom as if something is wrong with it and its in the header, nothing will load-->
