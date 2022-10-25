@@ -43,11 +43,32 @@ function game(){
     let threeselected = document.getElementById("three").checked;
 
     if (oneselected){
-        gameAnswer.innerHTML = fname + ", you are wrong."
+        gameAnswer.innerHTML = fname + ", basketball is very fun, but you need to guess the lie!"
     } else if (twoselected){
-        gameAnswer.innerHTML = fname + ", you are right."
+        gameAnswer.innerHTML = fname + ", you are correct, this was the lie! But it sounds fun."
     } else if (threeselected){
-        gameAnswer.innerHTML = fname + ", you are wrong."
+        gameAnswer.innerHTML = fname + ", robots are very interesting, but you need to guess the lie!"
     }
+}
 
+function game2(){
+    let gameAnswer2 = document.getElementById("game-answer-2")
+
+    let onetwoselected = document.getElementById("one.two").checked;
+    let twotwoselected = document.getElementById("two.two").checked;
+    let threetwoselected = document.getElementById("three.two").checked;
+
+    if (onetwoselected){
+        gameAnswer2.innerHTML = fname + ", you need to choose two items to submit."
+    } else if (twotwoselected){
+        gameAnswer2.innerHTML = fname + ", you need to choose two items to submit."
+    } else if (threetwoselected){
+        gameAnswer2.innerHTML = fname + ", you need to choose two items to submit."
+    } else if (onetwoselected, twotwoselected){
+        gameAnswer2.innerHTML = fname + ", this is wrong."
+    } else if (onetwoselected, threetwoselected){
+        gameAnswer2.innerHTML = fname + ", this is wrong."
+    } else if (twotwoselected, threetwoselected){
+        gameAnswer2.innerHTML = fname + ", this is correct"
+    }
 }
