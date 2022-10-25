@@ -64,11 +64,11 @@ function game2(){
         gameAnswer2.innerHTML = fname + ", you need to choose two items to submit."
     } else if (threetwoselected){
         gameAnswer2.innerHTML = fname + ", you need to choose two items to submit."
-    } else if (onetwoselected, twotwoselected){
+    } else if (onetwoselected && twotwoselected){
         gameAnswer2.innerHTML = fname + ", this is wrong."
-    } else if (onetwoselected, threetwoselected){
+    } else if (onetwoselected && threetwoselected){
         gameAnswer2.innerHTML = fname + ", this is wrong."
-    } else if (twotwoselected, threetwoselected){
+    } else if (twotwoselected && threetwoselected){
         gameAnswer2.innerHTML = fname + ", this is correct"
     }
 }
