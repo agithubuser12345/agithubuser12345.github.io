@@ -9,22 +9,23 @@
 <body>
     <h1>Lets learn java script</h1>
     <h2>How do we do onclick events and alerts?</h2>
-    <a href="www.eastsideprep.org" target="_blank" onclick="alert('Warning! you are navigating away from my page.')">School website</a>
+    <a href="https://eastsideprep.org" target="_blank" onclick="alert('Warning! you are navigating away from my page.')">School website</a>
     
     <hr>
     <h2>What's my secret identity?</h2>
     <p id="secret"></p>
-    <button onclick="document.getElementById('secret').innerHTML='Batman!'">Reveal</button>
+    <button onclick="document.getElementById('secret').innerHTML='Batman!'; document.getElementById('secret').style.display='block'">Reveal</button>
+    <button onclick="document.getElementById('secret').style.display='none'">Hide!</button>
 
     <hr>
     <h2>Two truths and a lie</h2>
-    <p id="truth">Which one is the truth or lie?</p>
+    <p id="truth"></p>
     <ol>
         <li>This is statement is definitely a truth.</li>
         <li>I like cricket.</li>
         <li>I like rockets</li>
     </ol>
-    <button onclick="document.getElementById('truth').innerHTML='Number one is a lie!'; document.getElementById('secret').style.display='none'">Reveal</button>
+    <button onclick="document.getElementById('truth').innerHTML='Number one is a lie!'; document.getElementById('secret').style.display='block'">Reveal</button>
     <button onclick="document.getElementById('truth').style.display='none'">Hide</button>
 
     <hr>
