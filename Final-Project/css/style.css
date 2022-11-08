@@ -1,0 +1,14 @@
+p {
+    font-family: source-serif-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.hometextborder {
+    border-width: 15px;
+    border-style: solid;
+    border-color: yellow;
+    border-left: 5px;
+    border-right: 5px;
+}
