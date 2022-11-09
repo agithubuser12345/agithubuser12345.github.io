@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .dark {
+            background-color: white;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <body class="bg-dark">
+        <div class="container mt-3">
+            <nav class="navbar navbar-expand-sm bg-secondary nav-dark">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <a class="navbar-brand" href="#"> <img src="images/Marks-Japanese-European.png" width="150"
+                                alt="Marks Japanese European Auto" class="rounded-pill"></a>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                            <!--active shows what page your on.-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <br>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="collapse"
+                data-bs-target="#hide">View/Hide</button>
+            <button type="button" class="btn btn-secondary" onclick="lightdarktoggle()">Light/Dark Mode</button>
+            <br>
+            <br>
+            <div id="hide" class="collapse">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <!--What does active do?-->
+                            <img src="images/Marks-Auto-Location-Image.jpg" alt="F1 Car Race" class="d-block w-100">
+                            <!-- w-100 means width 100 -->
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="images/marks-japanese-european-auto-shop-image.png" alt="F1 Car"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="images/marks-japanese-european-auto-shop-image2.png" alt="F1 Car BluePrint"
+                                class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="container p-5 m-5 mx-auto text-white bg-danger border">
+                <h1>Marks Japanese European Auto</h1>
+                <p>If you're looking for Japanese/European auto repair in
+                    Bellevue, Kirkland, and
+                    Issaquah, WA , you've
+                    found us. At Marks Japanese-European Auto, we work hard to earn your trust and loyalty. We know how
+                    important it is to find car service you can rely on, so your satisfaction is our top priority each
+                    and
+                    every day. <br><br>
+
+                    Here at Marks Japanese-European Auto, we understand what makes customer service truly outstanding.
+                    You
+                    will feel the difference exceptional customer care makes when you work with us. We know
+                    Japanese/European auto repair offers you lots of choices, and we aim to provide the kind of caring
+                    customer service that will bring you back. <br><br>
+
+                    Our car service offers you years of combined expertise from our well-trained technicians. We treat
+                    our
+                    Japanese/European auto repair professionals well because we value their skill and can-do attitude.
+                    We
+                    know our team sets us apart, saving you time and money, not to mention worry. When it comes to
+                    Japanese/European auto repair in Bellevue, Kirkland, and Issaquah, WA , we are totally confident
+                    that
+                    Marks Japanese-European Auto is the best option in town!</p>
+            </div>
+
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo1" data-bs-slide-to="0"
+                        class="active bg-danger"></button>
+                    <button class="bg-danger" type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+                    <button class="bg-danger" type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!--What does active do?-->
+                        <img src="images/marks-auto-car-service-image1.png" alt="F1 Car Race" class="d-block w-100">
+                        <!-- w-100 means width 100 -->
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="images/marks-auto-car-service-image2.png" alt="F1 Car" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="images/marks-auto-car-service-image3.png" alt="F1 Car BluePrint"
+                            class="d-block w-100">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev bg-danger" type="button" data-bs-target="#demo1"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"><br>Previous</span>
+                </button>
+                <button class="carousel-control-next bg-danger" type="button" data-bs-target="#demo1"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"><br>Next</span>
+                </button>
+            </div>
+        </div>
+
+        <script>
+            function lightdarktoggle() {
+                var element = document.body;
+                element.classList.toggle("dark");
+            }
+        </script>
+
+
+
+
+
+
+    </body>
+
+</html>
