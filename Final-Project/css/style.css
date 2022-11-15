@@ -12,3 +12,19 @@
     border-left: 5px;
     border-right: 5px;
 } */
+
+.container {
+    border: 5px solid red;
+}
+
+.navattributes {
+    color: white;
+}
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
