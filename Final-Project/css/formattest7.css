@@ -1,0 +1,86 @@
+.nav {
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.nav li {
+    float: right;
+}
+
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: #F05656;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    color: #F05656;
+}
+
+.iconimagecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto 25%;
+    color: black;
+}
+
+.grid-item {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.navmenu {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.above-carousel {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.main-image {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
+
+.main1 {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+.main2 {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+p,
+h1,
+h2,
+h3 {
+    font-family: source-serif-pro, serif;
+    font-style: normal;
+}
