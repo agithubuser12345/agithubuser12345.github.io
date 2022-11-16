@@ -17,15 +17,14 @@
         <br><br>
         <nav class="navbar navbar-expand-sm bg-light navbar-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="formattest7.html"><img src="images/Marks-Japanese-European.png"
-                        alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="images/Marks-Japanese-European.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="formattest7.html">Home</a>
+                            <a class="nav-link text-dark" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="services.html">Services</a>
@@ -43,7 +42,7 @@
                             <a class="nav-link text-dark" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="formattest7dark.html">Toggle Dark Mode</a>
+                            <a class="nav-link text-dark" href="indexdark.html">Toggle Dark Mode</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -114,9 +113,9 @@
         </div>
         <div class="container p-5 m-5 mx-auto text-white bg-warning rounded">
             <h1><b>Please Answer</b></h1> <br>
-            <button onclick="question()">Please answer this quick question (Click)</button>
+            <button onclick="question()"><b>Please Answer</b> (Click)</button>
             <br>
-            <p id="Question" style="color:white"></p>
+            <p id="Question" style="color:white; text-align: center;"></p>
         </div>
         <br>
         <br>
@@ -127,11 +126,10 @@
     <script>
         function question() {
             let
-                questionprompt = document.getElementById('Question'); let name = prompt("Was this information helpful? Respond 'yes' or 'no'"); if (name === "yes") { questionprompt.innerHTML = "Good to know. Your feedback is appreciated"; } else {
-                    questionprompt.innerHTML = "We are sorry to hear this. We hope you enjoy the rest of your day!"
-                }
-
+                questionprompt = document.getElementById('Question'); let name = prompt("How would you rate our website?"); if (name === "yes") { questionprompt.innerHTML = "Your feedback is appreciated" }
         }
+
+
     </script>
 </body>
 

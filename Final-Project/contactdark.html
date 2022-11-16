@@ -17,15 +17,14 @@
         <br><br>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="formattest7dark.html"><img src="images/Marks-Japanese-European.png"
-                        alt=""></a>
+                <a class="navbar-brand" href="indexdark.html"><img src="images/Marks-Japanese-European.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="formattest7dark.html">Home</a>
+                            <a class="nav-link text-light" href="indexdark.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="servicesdark.html">Services</a>
@@ -43,7 +42,7 @@
                             <a class="nav-link text-light" href="contactdark.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="formattest7.html">Toggle Dark Mode</a>
+                            <a class="nav-link text-light" href="index.html">Toggle Dark Mode</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -64,13 +63,18 @@
                     from you with your questions or comments.</p>
 
                 <div class="row">
+                    <!-- Rows and Columns are used to organize the input sections -->
                     <div class="col-md-9 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <!-- Forms take in user input -->
                             <div class="row">
                                 <div class="col-md-6">
+                                    <!-- This class decides how long the input field will span-->
                                     <div class="md-form mb-0">
                                         <input type="text" id="name" name="name" class="form-control">
+                                        <!-- We learned input and labels in class-->
                                         <label for="name" class="">Your name</label>
+                                        <!-- We learned input and labels in class -->
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -114,23 +118,22 @@
         </div>
         <div class="container p-5 m-5 mx-auto text-white bg-secondary rounded">
             <h1><b>Questions</b></h1><br>
-            <button onclick="question();"><b>Please Answer</b> (Click)</button>
+            <button class="btn btn-secondary" type="button" onclick="question();"><b>Please Answer</b> (Click)</button>
             <br>
             <p id="Question" style="color:white"></p>
         </div>
         <br>
         <br>
-        <div class="footer" style="color:white">
+        <div class="footer" style="color:white; text-align:center">
             Created by &copy; Anish &#128528;
         </div>
     </div>
     <script>
         function question() {
             let
-                questionprompt = document.getElementById('Question'); let name = prompt("Was this information helpful? Respond 'yes' or 'no'"); if (name === "yes") { questionprompt.innerHTML = "Good to know. Your feedback is appreciated"; } else {
-                    questionprompt.innerHTML = "We are sorry to hear this. We hope you enjoy the rest of your day!"
-                }
+                questionprompt = document.getElementById('Question'); let name = prompt("How would you rate our website? (Respond with 'good' or 'bad (reason)'"); if (name === "good" || name === "bad") { questionprompt.innerHTML = " &#128077 Your feedback is appreciated."; }
         }
+
     </script>
 </body>
 
