@@ -1,30 +1,17 @@
-/* p {
+p,
+h1,
+h2,
+h3,
+.navfont {
     font-family: source-serif-pro, serif;
-    font-weight: 400;
     font-style: normal;
-    font-size: 40px;
 }
 
-.hometextborder {
-    border-width: 15px;
-    border-style: solid;
-    border-color: yellow;
-    border-left: 5px;
-    border-right: 5px;
-} */
-
-.container {
-    border: 5px solid red;
-}
-
-.navattributes {
-    color: white;
-}
-
-.topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: white;
 }
