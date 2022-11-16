@@ -117,20 +117,19 @@
         </div>
         <div class="container p-5 m-5 mx-auto text-white bg-secondary rounded">
             <h1><b>Questions</b></h1><br>
-            <button class="btn btn-secondary" type="button" onclick="question();"><b>Please Answer</b> (Click)</button>
+            <button class="btn btn-dark" type="button" onclick="question();"><b>Please Answer</b> (Click)</button>
             <br>
             <p id="Question" style="color:white"></p>
         </div>
         <br>
         <br>
-        <div class="footer" style="color:white;background-color:#212529;text-align:center">
+        <div class="footer" style="color:white;text-align:center">
             Created by &copy; Anish 2022
         </div>
     </div>
     <script>
         function question() {
-            let
-                questionprompt = document.getElementById('Question'); let name = prompt("How would you rate our website? (Respond with 'good' or 'bad (reason)'"); if (name === "good" || name === "bad") { questionprompt.innerHTML = " &#128077 Your feedback is appreciated."; }
+            let questionprompt = document.getElementById('Question'); let name = prompt("How would you rate our website? (Respond with 'good' or 'bad'"); if (name === "good" || name === "bad") { questionprompt.innerHTML = " &#128077 Your feedback is appreciated."; }
         }
 
     </script>
