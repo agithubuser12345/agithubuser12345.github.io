@@ -1,1 +1,0 @@
-// All JS is within individual HTML documents.

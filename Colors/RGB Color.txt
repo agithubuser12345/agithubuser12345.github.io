@@ -1,8 +1,0 @@
-R G B
-73 91 115
-
-105 120 140
-
-164 173 191 
-
-Monocromatic Color Scheme 
