@@ -1,9 +1,290 @@
 body {
-    background-color: blue;
+    background-color: lightslategray;
 }
+
+h1,
+p {
+    color: white;
+}
+
+/*class attributes*/
 
 .box {
     width: 200px;
     height: 200px;
-    background-color: lightblue;
+    background-color: lightcoral;
+    margin: 40px auto;
+    animation-name: square-to-circle;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.box2 {
+    width: 125px;
+    height: 125px;
+    background-color: lightcoral;
+    margin: 40px auto;
+    animation-name: square-to-circle2;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: square-around-page;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: square-around-page2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: square-around-page3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: square-around-page4;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/*keyframes*/
+
+@keyframes square-to-circle {
+    0% {
+        border-radius: 0;
+        /* use to round the radius? */
+        background-color: lightcoral;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        border-radius: 50% 0 0 0;
+        /* changes one corner to 50%, leaves three 0's*/
+        background-color: coral;
+        transform: rotate(45deg);
+    }
+
+    50% {
+        border-radius: 50% 50% 0 0;
+        /* changes two corners to 50%, leaves two 0's. And so on for 75% and 100%*/
+        background-color: orange;
+        transform: rotate(90deg);
+    }
+
+    75% {
+        border-radius: 50% 50% 50% 0;
+        background-color: coral;
+        transform: rotate(135deg);
+    }
+
+    100% {
+        border-radius: 50%;
+        /*one value will work for all 4 corners, instead of 0 0 0 0 or 50% 50% 50% 50%*/
+        background-color: lightcoral;
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes square-to-circle2 {
+    0% {
+        border-radius: 0;
+        /* use to round the radius? */
+        background-color: lightcoral;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        border-radius: 50% 0 0 0;
+        /* changes one corner to 50%, leaves three 0's*/
+        background-color: coral;
+        transform: rotate(45deg);
+    }
+
+    50% {
+        border-radius: 50% 50% 0 0;
+        /* changes two corners to 50%, leaves two 0's. And so on for 75% and 100%*/
+        background-color: orange;
+        transform: rotate(90deg);
+    }
+
+    75% {
+        border-radius: 50% 50% 50% 0;
+        background-color: coral;
+        transform: rotate(135deg);
+    }
+
+    100% {
+        border-radius: 50%;
+        /*one value will work for all 4 corners, instead of 0 0 0 0 or 50% 50% 50% 50%*/
+        background-color: lightcoral;
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes square-around-page {
+    0% {
+        background-color: red;
+        left: 100px;
+        top: 150px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 0px;
+        top: 200px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 50px;
+        top: 0px;
+    }
+
+    75% {
+        background-color: green;
+        left: 100px;
+        top: 0px;
+    }
+
+    100% {
+        background-color: red;
+        left: 150px;
+        top: 50px;
+    }
+}
+
+@keyframes square-around-page2 {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 200px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 200px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 100px;
+    }
+
+    75% {
+        background-color: green;
+        left: 150px;
+        top: 50px;
+    }
+
+    100% {
+        background-color: red;
+        left: 200px;
+        top: 200px;
+    }
+}
+
+@keyframes square-around-page3 {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 200px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 150px;
+        top: 0px;
+    }
+
+    75% {
+        background-color: green;
+        left: 100px;
+        top: 0px;
+    }
+
+    100% {
+        background-color: red;
+        left: 200px;
+        top: 200px;
+    }
+}
+
+@keyframes square-around-page4 {
+    0% {
+        background-color: red;
+        left: 200px;
+        top: 200px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 0px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 200px;
+        top: 200px;
+    }
 }
