@@ -1,0 +1,17 @@
+p,
+h1,
+h2,
+h3,
+.navfont {
+    font-family: source-serif-pro, serif;
+    font-style: normal;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}

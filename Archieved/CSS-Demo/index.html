@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #blue-text {
+            color: blue;
+        }
+
+        #red-text {
+            color: red
+        }
+
+        #green-text {
+            color: green
+        }
+
+        .big-text {
+            font-size: x-large;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+
+        h3,
+        h4 {
+            color: aqua;
+        }
+
+        .special {
+            color: cornflowerblue;
+            font-size: small
+        }
+
+        table,
+        th,
+        td {
+            border: 3px solid black;
+        }
+
+        @keyframes animation {
+            from {
+                backgruond-color: red;
+            }
+
+            to {
+                background-color: yellow;
+            }
+        }
+
+        .animation {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: animation;
+            animation-duration: 4s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul class=".nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+
+
+        <h1>Today we will learn about adding sytle via CSS!</h1>
+        <h2>This is how we add style with inline</h2>
+        <p style="color:seagreen;"> This is a seagreen paragraph</p>
+        <p style="color:rgb(235, 11, 233); font-size:50px;">This is an rgb 235, 11, 233 with font size 50px paragraph
+        </p>
+        <p style="color:red;text-align: center;background-color: coral;font-size: 24px;">This is a red font size 24px,
+            centered paragraph
+            with coral background</p>
+
+        <h2>This is how we add style with internal css and id+ class selectors</h2>
+        <p id="blue-text">I want this text to be blue</p>
+        <p id="red-text">This one should be red</p>
+        <p id="green-text" ; style="font-size: 24px;text-align: right;">This text will be green, 24px, and right
+            alligned
+        </p>
+
+        <h2>This is with css classes</h2>
+        <p class="big-text">I want this text to be really big</p>
+        <p class="big-text right-align">I want this to be big and right alligned</p>
+
+        <h2>4. This is how we use element selectors</h2>
+        <h3>I want this h3 to be aqua</h3>
+        <h4>I want this h4 to be aqua too</h4>
+
+        <div class="special">
+            <p>This paragraph is part of the div</p>
+            <p>this paragraph is also part of the div</p>
+
+
+
+
+
+            <table>
+                <tr>
+                    <th>Day of week</th>
+                    <th>Food</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Spaghetti</td>
+                </tr>
+
+
+            </table>
+        </div>
+    </div>
+    <div class="animation"></div>
+
+</body>
+
+</html>
