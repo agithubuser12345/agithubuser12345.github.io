@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish | Psuedo Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Web 2!</h1>
+        <h4>Today, we will mess with some Psuedo Classes and Elements.</h4>
+
+        <h2>Lets dive deeper into CSS and how it works</h2>
+        <p>If we think of CSS in terms of selectors, properites, and values, then a typical CSS entry would look like
+            this.</p>
+        <pre>
+            <code>
+                selector {property: value;}
+            </code>
+        </pre>
+        <p>To style the above, we need to add two tags together, we call this CSS Combinators.</p>
+
+        <h2>What are Psuedo Classes?</h2>
+        <p>Again, if we tihink of CSS in terms of selectors, properties, and values, then psuedo class is an add-on to a
+            selector.</p>
+        <pre>
+            <code>selector:pseudo_class {property: value;}</code>
+        </pre>
+
+        <h4>We use them for links</h4>
+        <p>If we our <a href="#">link</a> to look different, we can simply add the following</p>
+        <pre>
+            <code>a {color: red}</code>
+        </pre>
+        <p>But if we want each of our <a href="#">link states</a> to look different then we will use a psuedo class liek
+            the following: </p>
+        <ul>
+            <li>:hover</li>
+            <li>:active</li>
+            <li>:visited</li>
+        </ul>
+        <p>But we can also make a <a class="special-link" href="#">new link</a> look different.</p>
+
+        <h4>We can use Psuedo CLasses on any tag.</h4>
+        <div class="hover-div">
+            <p>Here we will add a hover to our div.</p>
+            <p>What do you think?</p>
+        </div>
+
+        <h4>We can even call on specific selectors depending on their hierarchy.</h4>
+
+        <div class="tooltip">
+            <h4>You can even create quick and easy tooltips with psuedo classes.</h4>
+            <p>this is your hidden tooltip.</p>
+        </div>
+
+        <h2>What are Psuedo Elements??</h2>
+        <p class="psuedo-elements">Again, if we think of psuedo classes as add-ons, then we can think of psuedo elements
+            as creating new elements from a selector.</p>
+
+    </div>
+
+</body>
+
+</html>

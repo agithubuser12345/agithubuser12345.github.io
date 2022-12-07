@@ -1,0 +1,93 @@
+body {
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+h2,
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: white;
+    padding: 20px;
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid#999;
+    display: block;
+    padding: 20px;
+    color: black;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+a.special-link {
+    color: orange;
+}
+
+.hover-div {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+
+.hover-div:hover {
+    background-color: black;
+    /*You can add a hover to anythign that has a selector.*/
+}
+
+p:first-child {
+    color: red;
+
+}
+
+p:last-child {
+    font-weight: bold;
+}
+
+.tooltip p {
+    display: none;
+    background: yellow;
+    padding: 10px;
+}
+
+.tooltip:hover p {
+    display: block;
+}
+
+.psuedo-elements::first-letter {
+    color: red;
+}
+
+.psuedo-elements::before {
+    content: "READ THIS: ";
+    font-weight: bold;
+}
+
+.psuedo-elements::after {
+    content: " - REMEMBER THIS";
+    font-weight: bold;
+}
