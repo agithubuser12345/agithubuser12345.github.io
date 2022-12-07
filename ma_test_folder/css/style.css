@@ -33,7 +33,7 @@ h1 {
 .container {
     margin: 20px 50px;
     padding: 70px;
-    border: 5px solid white;
+    border: 0px solid white;
     background-color: black;
     overflow: auto;
     background-image: url(https://media.istockphoto.com/id/1271698585/video/stars-shine-effect-on-black-screen-background-animation-twinkle-festive-or-holiday-decoration.jpg?s=640x640&k=20&c=BOWcvMBZxM-p9sOB2fsQikD4NvpHnmruqEBlSDagxpc=);
@@ -58,9 +58,7 @@ div.desc {
 
 div.gallery img {
     width: 100%;
-
 }
-
 
 .dropdown {
     float: left;
