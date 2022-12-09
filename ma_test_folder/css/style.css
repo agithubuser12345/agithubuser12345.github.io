@@ -1,6 +1,23 @@
 body {
     background-color: black;
     background-image: url(https://media.istockphoto.com/id/1271698585/video/stars-shine-effect-on-black-screen-background-animation-twinkle-festive-or-holiday-decoration.jpg?s=640x640&k=20&c=BOWcvMBZxM-p9sOB2fsQikD4NvpHnmruqEBlSDagxpc=);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.homeloadanimation {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .nav {
@@ -13,7 +30,6 @@ body {
 
 .nav li {
     float: left;
-
 }
 
 .nav li a {
@@ -26,8 +42,13 @@ body {
 }
 
 p,
-h1 {
+h1,
+h2 {
     color: white;
+}
+
+p {
+    font-size: 30px;
 }
 
 .container {
@@ -37,6 +58,10 @@ h1 {
     background-color: black;
     overflow: auto;
     background-image: url(https://media.istockphoto.com/id/1271698585/video/stars-shine-effect-on-black-screen-background-animation-twinkle-festive-or-holiday-decoration.jpg?s=640x640&k=20&c=BOWcvMBZxM-p9sOB2fsQikD4NvpHnmruqEBlSDagxpc=);
+}
+
+.tab {
+    padding: 100px 100px;
 }
 
 div.gallery {
@@ -111,4 +136,26 @@ div.gallery img {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 310px;
+    object-fit: contain;
+}
+
+div.gallery:hover {
+    border: 1px solid black;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+div.gallery img {
+    width: 100%;
+
 }
