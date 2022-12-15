@@ -1,0 +1,130 @@
+body {
+    /* background: url('../images/holiday_background.jpg') no-repeat center center fixed white;
+    background-size: cover; */
+    height: 100%;
+    margin: 0;
+    font: "Lato", sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#section1scroll {
+    height: 800px;
+}
+
+#section2scroll {
+    height: 800px;
+}
+
+#section3scroll {
+    height: 800px;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+}
+
+.bgimg-1 {
+    background-image: url("../images/bgimg1.jpg");
+}
+
+.bgimg-2 {
+    background-image: url("../images/bgimg2.webp");
+}
+
+.bgimg-3 {
+    background-image: url("../images/bgimg3.webp");
+}
+
+
+.homeloadanimation {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.sectionanchor {
+    padding: 500px 500px;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    font-size: 100px;
+}
+
+h3 {
+    color: white;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+img {
+    opacity: 1;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: lightskyblue;
+
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+
+}
+
+.container {
+    margin: auto auto;
+    padding: 70px;
+    border: 0px solid white;
+    background-color: white;
+    overflow: auto;
+}
