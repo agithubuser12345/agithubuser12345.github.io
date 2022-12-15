@@ -76,7 +76,9 @@ h3 {
 }
 
 p {
-    margin: 0;
+    margin: 0
+        /* didn't add parameter for left and right because it messed up the socials icons. Instead I put it inline.*/
+    ;
     padding: 0;
     text-align: center;
     color: white;
