@@ -8,3 +8,19 @@
     padding: 5px;
     background-color: lightslategray;
 }
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+h1,
+h2,
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
