@@ -6,7 +6,7 @@
 .container {
     margin: 1px;
     padding: 5px;
-    background-color: lightslategray;
+    background-color: black;
 }
 
 
@@ -21,15 +21,17 @@
 
 h1,
 h2,
+h3,
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white
 }
 
-.nav li {
+#nav li {
     float: left;
 }
 
-.nav li a {
+#nav li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -38,10 +40,21 @@ p {
     color: white;
 }
 
-.nav {
+#nav {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
     background-color: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.smallgap {
+    padding-top: 5000px;
 }
