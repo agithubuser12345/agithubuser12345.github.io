@@ -1,0 +1,73 @@
+body {
+    background: url('../images/homepageimage.jpg') no-repeat center center fixed white;
+    background-size: cover;
+    background-color: rgb(26, 26, 28);
+
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-h1 {
+    animation-name: fadeIn;
+    animation: fadeIn 3s;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.socialmediaiconsize {
+
+    width: 1.7%
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+
+}
+
+.bgimg-1 {
+    background: red;
+    background-image: url("../images/bgimg1.jpg");
+}
+
+.bgimg-2 {
+    background-color: darkslategray;
+    background-image: url("../images/bgimg2.webp");
+}
+
+.bgimg-3 {
+    background-color: yellowgreen;
+    background-image: url("../images/bgimg3.webp");
+}
+
+.smallspace {
+    height: 1000px;
+}
+
+.bigspace {
+    height: 2000px;
+}
