@@ -24,6 +24,7 @@ body {
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    color: white;
 }
 
 a {
@@ -31,13 +32,28 @@ a {
     font-weight: 100;
 }
 
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-weight: bold;*/
+    color: white;
+}
+
+
+
+.socialmediaposition {
+    display: block;
+    margin: 50 auto 0;
+    width: 1.7%;
+}
+
 .socialmediaiconsize {
+    display: block;
+    margin: 0 auto;
 
     width: 1.7%
 }
 
 .bgimg-1,
-.bgimg-2,
 .bgimg-3 {
     position: relative;
     opacity: 0.65;
@@ -50,22 +66,33 @@ a {
 }
 
 .bgimg-1 {
-    background: red;
-    background-image: url("../images/bgimg1.jpg");
+    opacity: 1;
+    background-image: url("../images/image1.jpg");
+    height: 900px;
 }
 
 .bgimg-2 {
     background-color: darkslategray;
     background-image: url("../images/bgimg2.webp");
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+
 }
 
 .bgimg-3 {
     background-color: yellowgreen;
-    background-image: url("../images/bgimg3.webp");
+    background-image: url("../images/tempimage.webp");
+    opacity: 1;
+    height: 1000px;
 }
 
 .smallspace {
-    height: 1000px;
+    height: 650px;
 }
 
 .bigspace {
