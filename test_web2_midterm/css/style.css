@@ -1,11 +1,3 @@
-body {
-    background: url('../images/homepageimage.jpg') no-repeat center center fixed white;
-    background-size: cover;
-    background-color: rgb(26, 26, 28);
-
-}
-
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -21,7 +13,8 @@ body {
     animation: fadeIn 3s;
 }
 
-h1 {
+h1,
+h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: white;
@@ -46,6 +39,30 @@ p {
     width: 1.7%;
 }
 
+.facebooksocialmediaiconposition {
+    position: absolute;
+    z-index: 1000;
+    top: 415px;
+    left: 655px;
+    width: 1.7%;
+}
+
+.twittersocialmediaiconposition {
+    position: absolute;
+    z-index: 1000;
+    top: 415px;
+    left: 685px;
+    width: 1.7%;
+}
+
+.youtubesocialmediaiconposition {
+    position: absolute;
+    z-index: 1000;
+    top: 415px;
+    left: 715px;
+    width: 1.7%;
+}
+
 .socialmediaiconsize {
     display: block;
     margin: 0 auto;
@@ -54,28 +71,27 @@ p {
 }
 
 .bgimg-1,
+.bgimg2,
 .bgimg-3 {
     position: relative;
-    opacity: 0.65;
+    opacity: 1;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    height: 1500px;
 
 }
 
 .bgimg-1 {
-    opacity: 1;
-    background-image: url("../images/image1.jpg");
-    height: 900px;
+    background-image: url("../images/bgimg1.jpg");
+
 }
 
 .bgimg-2 {
-    background-color: darkslategray;
-    background-image: url("../images/bgimg2.webp");
+    background-image: url("../images/image1.jpg");
     position: relative;
-    opacity: 0.65;
+    opacity: 1;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,10 +101,38 @@ p {
 }
 
 .bgimg-3 {
-    background-color: yellowgreen;
-    background-image: url("../images/tempimage.webp");
+    background-image: url("../images/seoul.mp4");
     opacity: 1;
     height: 1000px;
+
+}
+
+#background-video {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+    left: 400;
+    right: 0;
+    top: 50;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+@keyframes backgroundvideofadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeinbackgroundvideo {
+    animation-name: backgroundvideofadein;
+    animation: backgroundvideofadein 3s;
 }
 
 .smallspace {
@@ -97,4 +141,108 @@ p {
 
 .bigspace {
     height: 2000px;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.hometext {
+    position: absolute;
+    z-index: 1000;
+    top: 500px;
+    left: 650px;
+    font-size: 25px;
+}
+
+.hometext2 {
+    position: absolute;
+    z-index: 1000;
+    top: 600px;
+    left: 360px;
+    font-size: 20px;
+}
+
+.bgimg2header {
+    position: absolute;
+    z-index: 1000;
+    top: 1600px;
+    left: 650px;
+}
+
+/*
+https://cdn.pixabay.com/vimeo/323496013/Seoul%20-%2021985.mp4?width=1280&expiry=1674241607&hash=267c9e61954a66e665c3788d8ccedf162603550c
+*/
+
+video {
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.video-container {
+    height: 600px;
+}
+
+.video-parallax {
+    -webkit-transition-position: fixed;
+    position: relative;
+}
+
+.typewriter p {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    /* Cursor */
+    white-space: nowrap;
+    /* Keeps text on one line*/
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* Typewriter animation */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* cursor animation */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+
+.footer {
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: black;
 }
