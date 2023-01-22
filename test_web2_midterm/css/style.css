@@ -396,7 +396,7 @@ a {
 https://cdn.pixabay.com/vimeo/323496013/Seoul%20-%2021985.mp4?width=1280&expiry=1674241607&hash=267c9e61954a66e665c3788d8ccedf162603550c
 */
 
-video {
+/*video {
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -407,32 +407,32 @@ video {
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
     transition: 1s opacity;
-}
+}*/
 
-.video-container {
+/*.video-container {
     height: 600px;
 }
 
 .video-parallax {
     -webkit-transition-position: fixed;
     position: relative;
-}
+}*/
 
-.typewriter p {
+/*.typewriter p {
     overflow: hidden;
-    border-right: .15em solid white;
-    /* Cursor */
-    white-space: nowrap;
-    /* Keeps text on one line*/
-    margin: 0 auto;
+    border-right: .15em solid white; */
+/* Cursor */
+/*white-space: nowrap;*/
+/* Keeps text on one line*/
+/*margin: 0 auto;
     letter-spacing: .15em;
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
-}
+}*/
 
 /* Typewriter animation */
-@keyframes typing {
+/*@keyframes typing {
     from {
         width: 0
     }
@@ -440,10 +440,10 @@ video {
     to {
         width: 100%
     }
-}
+}*/
 
 /* cursor animation */
-@keyframes blink-caret {
+/*@keyframes blink-caret {
 
     from,
     to {
@@ -453,7 +453,7 @@ video {
     50% {
         border-color: orange;
     }
-}
+} */
 
 
 .footer {
