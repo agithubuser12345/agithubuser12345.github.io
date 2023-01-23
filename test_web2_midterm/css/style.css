@@ -245,6 +245,34 @@ a {
 
 }
 
+.bulletpointcontainer {
+    display: grid;
+    grid-template-columns: 38% 38% 24%;
+    /*gap: 10px;
+    padding: 10px;*/
+    grid-template-rows: auto auto auto auto;
+}
+
+.bulletpoint1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.bulletpoint2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.bulletpoint3 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.bulletpoint4 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
 .servicesoffer1 {
     position: absolute;
     z-index: 1000;
@@ -396,7 +424,7 @@ a {
 https://cdn.pixabay.com/vimeo/323496013/Seoul%20-%2021985.mp4?width=1280&expiry=1674241607&hash=267c9e61954a66e665c3788d8ccedf162603550c
 */
 
-/*video {
+video {
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -407,32 +435,32 @@ https://cdn.pixabay.com/vimeo/323496013/Seoul%20-%2021985.mp4?width=1280&expiry=
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
     transition: 1s opacity;
-}*/
+}
 
-/*.video-container {
+.video-container {
     height: 600px;
 }
 
 .video-parallax {
     -webkit-transition-position: fixed;
     position: relative;
-}*/
+}
 
-/*.typewriter p {
+.typewriter p {
     overflow: hidden;
-    border-right: .15em solid white; */
-/* Cursor */
-/*white-space: nowrap;*/
-/* Keeps text on one line*/
-/*margin: 0 auto;
+    border-right: .15em solid white;
+    /* Cursor */
+    white-space: nowrap;
+    /* Keeps text on one line*/
+    margin: 0 auto;
     letter-spacing: .15em;
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
-}*/
+}
 
 /* Typewriter animation */
-/*@keyframes typing {
+@keyframes typing {
     from {
         width: 0
     }
@@ -440,10 +468,10 @@ https://cdn.pixabay.com/vimeo/323496013/Seoul%20-%2021985.mp4?width=1280&expiry=
     to {
         width: 100%
     }
-}*/
+}
 
 /* cursor animation */
-/*@keyframes blink-caret {
+@keyframes blink-caret {
 
     from,
     to {
@@ -453,7 +481,7 @@ https://cdn.pixabay.com/vimeo/323496013/Seoul%20-%2021985.mp4?width=1280&expiry=
     50% {
         border-color: orange;
     }
-} */
+}
 
 
 .footer {
