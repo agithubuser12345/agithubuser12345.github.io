@@ -66,6 +66,73 @@ a {
     color: white;
 }
 
+.maintextdesktop {
+    inline-size: 1000px;
+}
+
+.bottomleft {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.mobile-ion {
+    display: none;
+}
+
+.bottomleft2 {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.mobile-ion2 {
+    display: none;
+}
+
+.bottomleft3 {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.mobile-ion3 {
+    display: none;
+
+}
+
+.bottomright {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.bottomright2 {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
 .footer {
     background-color: black;
     color: #ffffff;
@@ -99,33 +166,18 @@ a {
     width: 50%;
 }
 
+.col-6point5 {
+    width: 50%;
+}
+
 .col-7 {
     width: 58.33%;
 }
 
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
-    width: 100%;
-}
 
 @media only screen and (max-width: 768px) {
 
-    /* For mobile phones: */
+    /* mobile */
     [class*="col-"] {
         width: 100%;
     }
@@ -174,10 +226,124 @@ a {
     }
 }
 
-@media (min-width: 100px) and (max-width:1400px) {
+@media (min-width: 614px) and (max-width:1400px) {
 
     iframe,
     .right {
         width: 100%;
+    }
+
+    .col-6 {
+        width: 70%;
+    }
+}
+
+@media (min-width:0px) and (max-width:616px) {
+    .bottomleft {
+        display: none;
+
+    }
+
+    .mobile-ion {
+        display: unset;
+        width: 100%;
+        float: left;
+        background-color: black;
+        padding: 15px;
+        color: white;
+        margin-top: 20px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    .bottomleft2 {
+        display: none;
+    }
+
+    .mobile-ion2 {
+        display: unset;
+        width: 100%;
+        float: left;
+        background-color: black;
+        padding: 15px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    .bottomleft3 {
+        display: none;
+    }
+
+    .mobile-ion3 {
+        display: unset;
+        width: 100%;
+        float: left;
+        background-color: black;
+        padding: 15px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+    }
+}
+
+@media (min-width:615px) and (max-width:1100px) {
+    .col-6 {
+        width: 80%;
+    }
+
+    img {
+        width: 25%;
+    }
+
+    .bottomleft {
+        display: none;
+
+    }
+
+    .mobile-ion {
+        display: unset;
+        width: 100%;
+        float: left;
+        background-color: black;
+        padding: 15px;
+        color: white;
+        margin-top: 20px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    .bottomleft2 {
+        display: none;
+    }
+
+    .mobile-ion2 {
+        display: unset;
+        width: 100%;
+        float: left;
+        background-color: black;
+        padding: 15px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    .bottomleft3 {
+        display: none;
+    }
+
+    .mobile-ion3 {
+        display: unset;
+        width: 100%;
+        float: left;
+        background-color: black;
+        padding: 15px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
     }
 }
