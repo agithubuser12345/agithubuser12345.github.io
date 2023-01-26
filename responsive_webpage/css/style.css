@@ -130,3 +130,54 @@ a {
         width: 100%;
     }
 }
+
+@media (min-width:621px) and (max-width:1000px) {
+    .main {
+        width: 80%;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:620px) {
+
+    .left,
+
+    .right {
+        width: 100%;
+    }
+}
+
+@media (min-width:0px) and (max-width:1000px) {
+
+    .aside,
+    .right {
+        width: 100%;
+    }
+}
+
+@media (min-width:618px) and (max-width:800px) {
+
+    iframe,
+    .right {
+        width: 100%;
+    }
+}
+
+@media (min-width: 617px) and (max-width:1200px) {
+
+    iframe,
+    .right {
+        width: 100%;
+    }
+}
+
+@media (min-width: 100px) and (max-width:1400px) {
+
+    iframe,
+    .right {
+        width: 100%;
+    }
+}
