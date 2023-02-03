@@ -74,86 +74,6 @@ h1 .minicontainer1 {
     margin-bottom: 100px;
 }
 
-.smallcontainer4 {
-    float: left;
-    width: 30%;
-    color: white;
-    margin: 0px 10px;
-}
-
-.smallcontainer5 {
-    float: left;
-    width: 30%;
-    color: white;
-    margin: 0 55px;
-}
-
-.smallcontainer6 {
-    float: left;
-    width: 30%;
-    color: white;
-}
-
-.main {
-    float: left;
-    width: 25%;
-    padding: 10px 20px;
-    background-color: none;
-    color: white;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.middle {
-    float: left;
-    width: 20%;
-    background-color: none;
-    color: white;
-    padding: 15px;
-    margin-top: 10px;
-    margin-left: 120px;
-}
-
-.right {
-    float: left;
-    width: 30%;
-    background-color: none;
-    color: white;
-    padding: 15px;
-    margin-top: 10px;
-    margin-left: 140px;
-}
-
-.bottom1 {
-    float: right;
-    width: 30%;
-    background-color: none;
-    color: white;
-    padding: 15px;
-    margin-top: 10px;
-    margin-left: 140px;
-}
-
-.bottom2 {
-    float: left;
-    width: 30%;
-    background-color: none;
-    color: white;
-    padding: 15px;
-    margin-top: 10px;
-    margin-left: 140px;
-}
-
-.bottom3 {
-    float: right;
-    width: 30%;
-    background-color: none;
-    color: white;
-    padding: 15px;
-    margin-top: 10px;
-    margin-left: 140px;
-}
-
 .content1 {
     float: left;
     width: 45%;
@@ -179,13 +99,44 @@ h1 .minicontainer1 {
 @media (min-width:621px) and (max-width:1000px) {
     body {
         background: none;
-        background-color: rgb(217, 108, 0);
+        background-color: #232525;
     }
+
+    .content1,
+    .content2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .smallcontainer1,
+    .smallcontainer2,
+    .smallcontainer3 {
+        width: 80%;
+        margin: 0;
+    }
+
+    img {
+        width: 50%;
+    }
+
+
+
 }
 
 @media only screen and (max-width:620px) {
     body {
         background: none;
-        background-color: rgb(217, 108, 0);
+        background-color: #292b2c;
     }
+
+    .content1,
+    .content2,
+    .smallcontainer1,
+    .smallcontainer2,
+    .smallcontainer3 {
+        width: 100%;
+        margin: 0;
+    }
+
+
 }
