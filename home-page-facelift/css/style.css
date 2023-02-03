@@ -46,6 +46,54 @@ h1 .minicontainer1 {
     width: 25px;
 }
 
+.bigcontainer {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.smallcontainer1 {
+    float: left;
+    width: 30%;
+    color: white;
+}
+
+.smallcontainer2 {
+    float: left;
+    width: 30%;
+    color: white;
+    margin: 0 65px;
+}
+
+.smallcontainer3 {
+    float: left;
+    width: 30%;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.smallcontainer4 {
+    float: left;
+    width: 30%;
+    color: white;
+    margin: 0px 10px;
+}
+
+.smallcontainer5 {
+    float: left;
+    width: 30%;
+    color: white;
+    margin: 0 55px;
+}
+
+.smallcontainer6 {
+    float: left;
+    width: 30%;
+    color: white;
+}
+
 .main {
     float: left;
     width: 25%;
