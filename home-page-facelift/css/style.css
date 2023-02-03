@@ -1,0 +1,143 @@
+body {
+    background: url('../images/homepageimage.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes FadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body .fade-in {
+    animation-name: FadeInAnimation;
+    animation: FadeInAnimation 3s;
+}
+
+
+.container a {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 .minicontainer1 {
+    color: white;
+}
+
+.start1 {
+    margin-top: 300px;
+    margin-left: 10px;
+}
+
+.smallspace {
+    height: 100px;
+}
+
+.smallgap {
+    width: 25px;
+}
+
+.main {
+    float: left;
+    width: 25%;
+    padding: 10px 20px;
+    background-color: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.middle {
+    float: left;
+    width: 20%;
+    background-color: none;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.right {
+    float: left;
+    width: 30%;
+    background-color: none;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.bottom1 {
+    float: right;
+    width: 30%;
+    background-color: none;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.bottom2 {
+    float: left;
+    width: 30%;
+    background-color: none;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.bottom3 {
+    float: right;
+    width: 30%;
+    background-color: none;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.content1 {
+    float: left;
+    width: 45%;
+    background-color: none;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+
+.content2 {
+    float: left;
+    width: 45%;
+    background-color: none;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+
+@media (min-width:621px) and (max-width:1000px) {
+    body {
+        background: none;
+        background-color: rgb(217, 108, 0);
+    }
+}
+
+@media only screen and (max-width:620px) {
+    body {
+        background: none;
+        background-color: rgb(217, 108, 0);
+    }
+}
