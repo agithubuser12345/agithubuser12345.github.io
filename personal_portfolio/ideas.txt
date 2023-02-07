@@ -1,0 +1,32 @@
+Make a scrolling website with parallax and animations
+
+Make it sort of space themed with black background? In the past colored backgrounds haven't looked as good as white backgrounds. But maybe I can have an animation to change that, like this website: 
+
+https://webflow.com/web-design-art-history?rfsn=1534242.c8be44&utm_source=refersion&utm_medium=affiliate&utm_campaign=1534242.c8be44&subid=cbq-us-5487459079616000000 
+
+I don't know if I can find an animation of this on google or elsewhere, but having a rocket start from one planet and travel throughout as a background could be something to try. 
+
+Topics: 
+-Who Am I? (cool background image with name and maybe something else, but keep text limited)
+-Interests: 
+    -Rocketry 
+    -Robotics
+    -Cricket
+    -Poetry (?)
+    -Basketball (?)
+
+
+One of my goals is to use JS rather than lots of CSS spam. However, I also want to be more efficient with CSS itself by using attributes like margins and padding, along with a potential grid system to better organize content and implement other features. 
+
+Possible Animations:
+AOS Library
+Transparent Navbar that changes upon scrolling
+Animations on scroll like background color change or even other animations (don't know if changing something like backgorund color on scroll is an animation?)
+
+Maybe add background sound to the website?
+
+Some feature like this on the top where they can scroll around (screen follows the pointer when it moves), maybe to see a bit more of the animation.
+https://matthew.wagerfield.com/parallax/ 
+
+
+Have parallax images go from space, to mountains, to trees, and maybe city at the end, showing how its going down to Earth? Or have it the other way around.
