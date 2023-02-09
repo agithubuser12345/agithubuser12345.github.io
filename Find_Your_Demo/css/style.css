@@ -1,0 +1,200 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    margin-left: 25px;
+}
+
+.header1 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+}
+
+.content1 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content2 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+    margin: 10px 0px;
+}
+
+.content3 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+    margin: 10px 0px;
+}
+
+.content4 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+    margin: 10px 0px;
+}
+
+.content5 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+    margin: 10px 0px;
+}
+
+.content6 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+}
+
+.content7 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+    margin: 10px 0px;
+}
+
+.content8 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+    margin: 10px 0px;
+}
+
+.content9 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+    margin: 10px 0px;
+}
+
+.content10 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(135, 135, 135, 0.2);
+    margin: 10px 0px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav li {
+    position: relative;
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#section1scroll {
+    height: 800px;
+}
+
+#section2scroll {
+    height: 800px;
+}
+
+#section3scroll {
+    height: 800px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+
+    margin: 0;
+}
+
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

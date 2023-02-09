@@ -5,10 +5,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Loading Animation Tutorial</title>
 </head>
 
 <body>
+    <div>
+        <ul class="nav">
+            <li><a href="#section1">Home</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Steps <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#section2">Step1</a>
+                    <a href="#section3">Step2</a>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+    <h1 style="text-align:center;" id="section1">Loading Screen Animation Demo</h1>
+    <div class="container">
+        <div class="header1">
+            <h3>This Demo Will Show You How To Make A Loading Screen Animation</h3>
+            <p>A loading screen animation is an animation that happens upon loading into the webpage. It can make
+                websites
+                look
+                a lot better and they are good to use.</p>
+            <p>Below is an example of how the animation will look.</p>
+        </div>
+        <br>
+        <div class="content1">
+            <p>This animation will be done with CSS.</p>
+            <p>Steps are listed and explained below:</p>
+            <p>First, you need to create your index file, along with your css file.</p>
+            <p>After, put in your basic HTML. This text will be what shows on your loading animation.</p>
+            <p>Here is an example of the HTML code you will use: <br></p>
+        </div>
+        <img style="width:40%;" src="images/html_code.jpg" alt="html code image">
+        <div class="content2">
+            <p>After, you will need to add some attributes to your CSS classes. Head over to your CSS file and make the
+                following classes for the body, container, and background.</p>
+        </div>
+        <img style="width:60%" src="images/css_starting_class.jpg" alt="starting CSS classes code">
+        <br>
+        <div class="content3">
+            <p id="section2">If prefered, you can replace the image with another one. You can also adjust the color
+                attributes within
+                the
+                classes in your CSS file to match your prefered loading screen animation ideas.</p>
+            <p>Now we can start animating with CSS. We can use keyframes to make the animations and control what happens
+                at
+                different 'frames' or at different times of our animation.</p>
+            <p>For example, the HTML text will load in, then the split screen animation will take place, following with
+                different keyframe animations within the CSS to control the movements of the split screen.</p>
+            <p>Below is an example of the split screen class along with the keyframe animation.</p>
+        </div>
+        <img style="width:60%;" src="images/split_screen_css.jpg" alt="split screen CSS code">
+        <div class="content4">
+            <p>Keyframes:</p>
+        </div>
+        <img style="width:60%;" src="images/keyframes1.jpg" alt="split-screen keyframe class CSS code">
+        <div class="content5">
+            <p>On your webpage, you should now have a screen with your split-screen cover becoming smaller due to the
+                shift
+                in
+                width size from your keyframe class. <br> We can also add an animation to the split-screen using the
+                following attributes.</p>
+        </div>
+        <img style="width:40%;" src="images/animation_delay.jpg" alt="animation delay code CSS">
+        <img style="width:37%" src="images/animation_fill_mode.jpg" alt="animation fill mode CSS">
+        <div class="content6">
+            <p>Now we can add the animation to move the split screen to the right. We can call this animation in our CSS
+                class called split-screen. This is an example of how the code
+                would look like.</p>
+        </div>
+        <img style="width:45%;" src="images/moveright.jpg" alt="move right keyframe code CSS">
+        <div class="content7">
+            <p id="section3">We will also want to animate the HTML text. So far we have been using keyframes for the
+                split-screen
+                animation. For example, we could have the HTML code fade upwards, then have the background change. Below
+                is an example of how it would look like.</p>
+        </div>
+        <img style="width:60%" src="images/other_keyframe_classes.jpg"
+            alt="additional CSS keyframe code for animating HTML text">
+        <div class="content8">
+            <p>Once the split screen animation happens, we will want to change the HTML content too. Add this class to
+                get the effect. Feel free to change it.</p>
+        </div>
+        <img style="width:40%" src="images/content_class.jpg" alt="content class code CSS">
+        <div class="content9">
+            <p>Lastly, we can add an animation to the comma to make the final result look better. This animation will
+                fade the comma out with a keyframe animation applied to the content and comma class.</p>
+        </div>
+        <img style="width:60%" src="images/comma_css.jpg" alt="comma fade-away animation class code CSS">
+        <div class="content10">
+            <p>This is the end of the demo, if anything isn't working, go back to the previous steps to check for any
+                mistakes or bugs.</p>
+        </div>
+    </div>
+
+
 
 
 </body>
