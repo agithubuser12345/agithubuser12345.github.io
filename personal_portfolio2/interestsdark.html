@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #colorofheading {
+            color: white;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        .nav {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .nav li {
+            float: left;
+
+        }
+
+        .nav li a {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: large;
+            color: white;
+        }
+
+        .container {
+            margin: 20px 50px;
+            padding: 70px;
+            border: 5px solid white;
+            background-color: black;
+            overflow: auto;
+        }
+
+        .about-no-link {
+            text-decoration: none;
+            list-style: none;
+            color: white;
+        }
+
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid black;
+            float: left;
+            width: 310px;
+            object-fit: contain;
+        }
+
+        div.gallery:hover {
+            border: 1px solid black;
+        }
+
+        div.desc {
+            padding: 10px;
+            text-align: center;
+        }
+
+        div.gallery img {
+            width: 100%;
+
+        }
+
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+
+            margin: 0;
+        }
+
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(0, 0, 0);
+        }
+
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="indexdark.html">Home</a></li>
+            <li><a href="aboutdark.html">About</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Portfolio
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                </div>
+            </div>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="contactdark.html">Contact</a></li>
+            <li><a href="index.html">Light-Mode</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
