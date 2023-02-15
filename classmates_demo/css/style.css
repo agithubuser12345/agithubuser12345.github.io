@@ -19,6 +19,14 @@ h1 {
     color: white;
 }
 
+p {
+    font-size: 25px;
+}
+
+img {
+    width: 100%;
+}
+
 @keyframes fall {
     0% {
         opacity: 0;
@@ -69,4 +77,13 @@ h1 {
     animation: fall ease-in infinite, sway ease-in-out infinite;
     color: skyblue;
     position: absolute;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: white;
 }
