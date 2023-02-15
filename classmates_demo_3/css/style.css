@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: red;
+    box-shadow: 0 0 140px white;
+}
