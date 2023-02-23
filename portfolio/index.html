@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="sticky">
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Interests</a></li>
+            <li><a href="#">Gallery/Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="textBx">
+            <h2>Hello, I'm <br><span>Anish Sharma</span></h2>
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <a href="#" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis vitae illum magni, alias doloribus
+                    consequuntur quasi recusandae amet. Reprehenderit culpa cum ratione totam natus minus consectetur
+                    hic minima in atque? <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                    eaque repellendus veniam consequatur accusamus harum asperiores neque, natus aspernatur autem
+                    exercitationem obcaecati odio vitae earum cum placeat, a veritatis mollitia. <br><br>Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Corporis veritatis cumque voluptatibus numquam porro
+                    dolor. Voluptas, tenetur accusantium aliquam impedit id vero iusto provident, nam, officiis
+                    doloremque repudiandae ipsum? Provident, optio. Excepturi impedit velit expedita non?
+                    Cupiditate
+                    ratione consectetur inventore numquam voluptates, quaerat dolorum, dolorem optio illo minima omnis
+                    voluptas rerum reprehenderit quod facere illum laboriosam repellat! Sint dicta, quo porro corporis,
+                    quia ducimus possimus tenetur sed provident ad ullam nesciunt voluptates debitis in totam veniam!
+                    <br><br>
+                    Quod dicta delectus officiis est voluptatum quis fugiat quam quaerat a necessitatibus aliquid fuga
+                    incidunt voluptas voluptate, aspernatur sequi beatae, officia architecto iste autem? <br><br> Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, nobis tempora doloribus praesentium
+                    facere reiciendis exercitationem culpa quidem mollitia odio officia assumenda impedit fuga expedita
+                    dolor? Illo necessitatibus culpa inventore voluptas dignissimos sit sequi expedita pariatur laborum
+                    consequuntur, rem ipsum, quo eaque eveniet veniam reprehenderit, perferendis ullam animi voluptatem
+                    voluptate fuga? Dicta quasi illo fugiat eum, et laudantium, nemo voluptatum saepe natus porro odio
+                    aliquid, quos aliquam veritatis perspiciatis ut. <br><br>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ex perferendis, alias dignissimos inventore voluptatibus cum animi magnam officiis
+                    officia fugiat at autem! Pariatur, aliquam accusantium. <br><br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum corporis impedit harum sint eligendi,
+                    quae exercitationem aperiam ipsam magnam. Harum sequi officia commodi molestiae esse sapiente ipsa
+                    expedita officiis! Ipsa quos saepe exercitationem ad facere esse corporis rem ex cum, accusamus et
+                    consequuntur modi vel laborum odit numquam! Expedita, alias!
+                </p>
+            </div>
+            <div class="w50">
+                <img src="images/spaceshuttle.png" alt="Image of Space Shuttle">
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="content">
+                <div class="portfolioBx">
+                    <img src="" alt="">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique pariatur fuga exercitationem
+                        dolor atque unde cupiditate suscipit neque omnis illo!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+
+</body>
+
+</html>
