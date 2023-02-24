@@ -145,3 +145,151 @@ header.sticky ul li a {
 img {
     max-width: 100%;
 }
+
+.container2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.container2 .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .card .content {
+    position: absolute;
+    bottom: -160px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: bottom 0.5s;
+    transition-delay: 0.8s;
+}
+
+.container2 .card:hover .content {
+    bottom: 0px;
+    transition-delay: 0.8s;
+}
+
+.container2 .card .content .contentBx h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 15px;
+    line-height: 1.1em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition-delay: 0.6s;
+}
+
+.container2 .card:hover .content .contentBx h3 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.container2 .card .content .contentBx h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+
+.container2 .card .content .sci {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+}
+
+.container2 .card .content .sci li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.2s * var(--i));
+}
+
+.container2 .card:hover .content .sci li {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container2 .card .content .sci li a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.interests .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.interests .content .interestsBx {
+    width: 50%;
+    padding: 20px;
+}
+
+.interests .content .interestsBx img {
+    max-width: 100%;
+}
+
+.gallerywork {
+    background: #f7f7f7;
+}
+
+.gallerywork .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallerywork .content .galleryworkBx {
+    max-width: calc(50% - 40px);
+    padding: 60px 40px;
+    margin: 20px;
+    background: #2196f3;
+}
+
+.gallerywork .content .galleryworkBx p {
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.gallerywork .content .galleryworkBx h3 {
+    margin-top: 40px;
+    text-align: end;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.gallerywork .content .galleryworkBx h3 span {
+    font-size: 14px;
+    font-weight: 400;
+}
