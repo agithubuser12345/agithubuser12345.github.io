@@ -1,0 +1,7 @@
+.hidden p {
+    color: #fff;
+}
+
+.hidden p:hover {
+    color: #000;
+}
