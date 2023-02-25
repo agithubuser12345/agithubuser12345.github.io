@@ -83,7 +83,7 @@ header .logo {
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 2px;
-    /* margin-left: -100px; */
+    margin-left: -100px;
 }
 
 header.sticky .logo {
