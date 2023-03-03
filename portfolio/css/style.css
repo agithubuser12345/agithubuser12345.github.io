@@ -372,6 +372,7 @@ img {
     justify-content: center;
     align-items: flex-start;
     font-size: 24px;
+    color: white;
 }
 
 .contactinfoBx .box .text {
@@ -390,8 +391,60 @@ img {
 }
 
 .copyright {
-    background: #000;
+    background: rgba(0, 0, 0, 0.9);
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+/* Responsive */
+
+@media (max-width:991px) {
+
+    header,
+    header.sticky {
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+
+    .menu {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    header ul li a {
+        color: #111;
+    }
+
+    .toggle {
+        width: 40px;
+        height: 40px;
+        background-image: url(../images/menuopen.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120px;
+        cursor: pointer;
+    }
+
+    .toggle.active {
+        background-image: url(../images/menuclosed.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120px;
+        cursor: pointer;
+    }
+
+    header.sticky .toggle {
+        filter: invert(1);
+    }
 }
