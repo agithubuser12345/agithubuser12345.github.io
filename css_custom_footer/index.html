@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<!-- Design inspiration came from Online Tutorials on YouTube
+     The glass morphism card concept came from https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9 
+     The idea of naming classes by things like content, and then contentBx (box) came from Online Tutorials on YouTube. The way they organized there code was useful to implement here. For example, starting with HTML and then making CSS classes based of the HTML structure
+     The other icons and images came from places like Font Awesome and Boxicons.-->
+
+<body>
+    <header class="">
+        <a href="#home" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#gallerywork">Gallery/Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm <br><span>Anish Sharma</span></h2>
+            <h3>Engrossed Student, Explorering Rocketry, Enjoying Cricket </h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Me | School | Hobbies | Rocketry | Sports | More</h3>
+                <p>I'm from Washington state and have heritage and family from India. I have many different interests in
+                    STEM topics and occasionally dive into wherever my interests take me.<br><br> Currently, I attend
+                    Eastside
+                    Preparatory School in Kirkland, WA. I'm new to Eastside Preparatory School (EPS) but have met new
+                    people and made
+                    new friends. When I'm at school, I enjoy different classes like PreCalculus where
+                    we learn about sine and cosine waves along with more applications of trignometric identities and
+                    equations. <br><br> In other classes like history, we look into European colonialism and the history
+                    behind
+                    the era of conquest and colonialism with powers like Spain and Portugal and their notorious history
+                    with indigenous populations. Overall, the teachers at this school are helpful and so far school is
+                    going well. <br><br> Some
+                    of my favorite activities/hobbies outside of school are spending time
+                    with family. Whether it's taking a small road trip or walking on a nearby trail to taking an
+                    international trip across the seas, I enjoy being able to spend time with family during breaks or
+                    when I get the chance. Additionally, I like reading books of different generes and writing poetry on
+                    various topics.<br><br> One of my big interest is rocketry. Rocketry is an overlap between different
+                    fields like aerospace and physics applied to experiment with rockets and other science related to
+                    outer space. I also enjoy looking at other topics related to rockets like orbital mechanics, along
+                    with learning about other celestial objects in outer space. There is so much to learn about these
+                    topics and rocketry has become a big part of my interests. Recently, NASA has launched the Artemis
+                    program which looks to get humans back to the Moon and explore the lunar surface ("NASA Artemis").
+                    Artemis 1 was launched a few months ago on November 15th, 2022. The mission was a success and the
+                    Orion spacecraft returned safely. NASA has many other interesting Artemis missions in the future
+                    including the Lunar Gateway Station in orbit around the Moon.
+
+                    <br><br>
+                    On a different topic, sports are one of my hobbies and favorite things to do with my family and
+                    friends.<br><br>The main sports I enjoy playing are cricket and basketball. I normally play cricket
+                    with my family and friends, but I practice basketball occasionally on my own. Watching sports like
+                    cricket is also fun, especially keeping track of matches and certain parts of cricket like IPL.
+                    India is currently finishing up a test match series against Australia as they lead 2-1.
+            </div>
+            <div class="w50">
+                <img class="responsiveimgdisplay" src="images/spaceshuttle.png" alt="Image of Space Shuttle">
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <!-- <h2 style="text-align:center;">Portfolio</h2> -->
+        <div class="container2">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="images/verticalastronaut.jpg" alt="image of Eastside Preparatory School">
+                </div>
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Education<br><span>Eastside Preparatory School</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1;"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li style="--i:2;"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li style="--i:3;"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="images/verticalhorseheadnebula.jpg" alt="image of Eastside Preparatory School">
+                </div>
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Travel<br><span>Bhutan, Costa Rica, Norway etc.</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1;"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li style="--i:2;"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li style="--i:3;"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="images/verticalgalaxy.jpg" alt="image of Eastside Preparatory School">
+                </div>
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Skills<br><span>Geography, Rockets, Astronomy</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1;"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li style="--i:2;"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li style="--i:3;"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="heading">
+                <a href="#" class="btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="interests" id="interests">
+        <div class="heading">
+            <h2>Interests</h2>
+            <p>Some of my more specific interests include robotics and competitions like FTC, <br> SpaceX and their
+                rockets,
+                F1 and its seasons, and
+                fighter jets like
+                the F35-C.</p>
+        </div>
+        <div class="content">
+            <div class="interestsBx">
+                <img src="images/squaresizerobot.jpeg" alt="">
+            </div>
+            <div class="interestsBx">
+                <img src="images/squaresizespacex.jpg" alt="">
+            </div>
+            <div class="interestsBx">
+                <img src="images/squaresizef1.jfif" alt="">
+            </div>
+            <div class="interestsBx">
+                <img src="images/squaresizef35-c.jpg" alt="">
+            </div>
+            <div class="heading">
+                <a href="#" class="btn">View More</a>
+            </div>
+
+        </div>
+    </section>
+    <section class="gallerywork" id="gallerywork">
+        <div class="heading">
+            <h2>Gallery/Work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="galleryworkBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatibus corrupti cumque laborum
+                    a modi ex sint magni aspernatur dolores, maiores minus labore nostrum, saepe voluptate dolor
+                    architecto excepturi deserunt numquam repellat, consequatur ad non ullam debitis? Eos quam sunt
+                    alias et in modi obcaecati enim eaque. Quas, esse fuga.</p>
+                <h3>Name of Work <br><span>Date</span></h3>
+            </div>
+            <div class="galleryworkBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatibus corrupti cumque laborum
+                    a modi ex sint magni aspernatur dolores, maiores minus labore nostrum, saepe voluptate dolor
+                    architecto excepturi deserunt numquam repellat, consequatur ad non ullam debitis? Eos quam sunt
+                    alias et in modi obcaecati enim eaque. Quas, esse fuga.</p>
+                <h3>Name of Work<br><span>Date</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact</h2>
+            <p>Feel free to contact me with any questions you have.</p>
+        </div>
+        <div class="content">
+            <div class="contactinfo">
+                <h3>Contact Info</h3>
+                <div class="contactinfoBx">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker"></i></div>
+                        <div class="text">
+                            <h3>Adresss</h3>
+                            <p>10613 NE 38th Pl, Kirkland, WA 98033</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>000-000-0000</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>info@eastsideprep.org</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formbx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div style="height:100px;"></div>
+
+    <div class="footer">
+        <p>Copyright &copy; 2023 Anish Sharma</p>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            menuToggle.classList.toggle('active')
+        }
+    </script>
+
+</body>
+
+</html>

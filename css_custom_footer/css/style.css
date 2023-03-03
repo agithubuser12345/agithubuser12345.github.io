@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 100px;
+}
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background: url(../images/rocketAIimage.png) no-repeat center center fixed;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.btn {
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky {
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: -100px;
+}
+
+header.sticky .logo {
+    color: #111;
+}
+
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header.sticky ul li a {
+    color: #111;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.contact .heading h2,
+.contact .heading p {
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBx {
+    padding-right: 30px;
+}
+
+.contentBx h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.w50 {
+    min-width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.container2 .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .card .content {
+    position: absolute;
+    bottom: -160px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: bottom 0.5s;
+    transition-delay: 0.8s;
+}
+
+.container2 .card:hover .content {
+    bottom: 0px;
+    transition-delay: 0.8s;
+}
+
+.container2 .card .content .contentBx h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 15px;
+    line-height: 1.1em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition-delay: 0.6s;
+}
+
+.container2 .card:hover .content .contentBx h3 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.container2 .card .content .contentBx h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+
+.container2 .card .content .sci {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+}
+
+.container2 .card .content .sci li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.2s * var(--i));
+}
+
+.container2 .card:hover .content .sci li {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container2 .card .content .sci li a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.interests {
+    background: #fff;
+}
+
+.interests .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.interests .content .interestsBx {
+    width: 50%;
+    padding: 20px;
+}
+
+.interests .content .interestsBx img {
+    max-width: 100%;
+}
+
+.gallerywork {
+    background: #f7f7f7;
+}
+
+.gallerywork .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallerywork .content .galleryworkBx {
+    max-width: calc(50% - 40px);
+    padding: 60px 40px;
+    margin: 20px;
+    background: #2196f3;
+}
+
+.gallerywork .content .galleryworkBx p {
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.gallerywork .content .galleryworkBx h3 {
+    margin-top: 40px;
+    text-align: end;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.gallerywork .content .galleryworkBx h3 span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact {
+    background: #111;
+}
+
+.formbx {
+    min-width: 60%;
+}
+
+.formbx form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formbx form h3,
+.contactinfo h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.formbx form input,
+.formbx form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none;
+}
+
+.formbx form textarea {
+    min-height: 200px;
+}
+
+.formbx form input::placeholder,
+.formbx form textarea::placeholder {
+    color: #999;
+}
+
+.formbx form input[type="submit"] {
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contactinfo {
+    min-width: 40%;
+}
+
+.contactinfoBx {
+    position: relative;
+}
+
+.contactinfoBx .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactinfoBx .box .icon {
+    min-width: 40px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+    color: white;
+}
+
+.contactinfoBx .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contactinfoBx .box .text h3 {
+    font-weight: 500;
+    color: #2196f3;
+    margin-bottom: 0;
+}
+
+.footer {
+    align-items: center;
+    background-color: #222;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    font-size: 2em;
+    height: 100px;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: -999;
+}
+
+/* Responsive */
+
+@media (max-width:991px) {
+
+    header,
+    header.sticky {
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+
+    .menu {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    header ul li a {
+        color: #111;
+    }
+
+    .toggle {
+        width: 40px;
+        height: 40px;
+        background-image: url(../images/menuopen.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120px;
+        cursor: pointer;
+    }
+
+    .toggle.active {
+        background-image: url(../images/menuclosed.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120px;
+        cursor: pointer;
+    }
+
+    header.sticky .toggle {
+        filter: invert(1);
+    }
+}
