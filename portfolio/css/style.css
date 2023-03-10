@@ -466,8 +466,8 @@ img {
     }
 
     .sorry {
-        color: #fff;
-        font-size: 20px;
+        color: yellow;
+        font-size: 27px;
         display: block;
     }
 
@@ -537,8 +537,8 @@ img {
 
     .sorry {
         display: block;
-        color: #fff;
-        font-size: 20px;
+        color: yellow;
+        font-size: 27px;
     }
 
 }
