@@ -540,4 +540,12 @@ img {
         color: yellow;
         font-size: 27px;
     }
+
+    .banner {
+        position: relative;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
