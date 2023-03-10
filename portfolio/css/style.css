@@ -397,9 +397,16 @@ img {
     padding: 10px;
 }
 
+.sorry {
+    display: none;
+}
+
 /* Responsive */
 
 @media (max-width:991px) {
+    header {
+        display: none;
+    }
 
     header,
     header.sticky {
@@ -407,11 +414,11 @@ img {
         z-index: 1000;
     }
 
-    .menu {
+    /* .menu {
         position: fixed;
         top: 75px;
         left: 0;
-        display: block;
+        display: none;
         padding: 100px 50px;
         text-align: center;
         width: 100%;
@@ -420,7 +427,7 @@ img {
         transition: 0.5s;
         z-index: 999;
         border-top: 1px solid rgba(0, 0, 0, 0.2);
-    }
+    } */
 
     header ul li a {
         color: #111;
@@ -429,22 +436,109 @@ img {
     .toggle {
         width: 40px;
         height: 40px;
-        background-image: url(../images/menuopen.png);
+        background-image: url(../images/boxiconmenu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: 120px; */
+        cursor: pointer;
+    }
+
+    /* .toggle.active {
+        background-image: url(../images/boxiconx.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 120px;
         cursor: pointer;
-    }
+    } */
 
-    .toggle.active {
-        background-image: url(../images/menuclosed.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 120px;
-        cursor: pointer;
-    }
-
-    header.sticky .toggle {
+    /* header.sticky .toggle {
         filter: invert(1);
+    } */
+
+    .yeet,
+    .btn {
+        display: none;
     }
+
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .sorry {
+        color: #fff;
+        font-size: 20px;
+        display: block;
+    }
+
+}
+
+@media (max-width:1300px) {
+    header {
+        display: none;
+    }
+
+    header,
+    header.sticky {
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+
+    /* .menu {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        display: none;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    } */
+
+    header ul li a {
+        color: #111;
+    }
+
+    .toggle {
+        width: 40px;
+        height: 40px;
+        background-image: url(../images/boxiconmenu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: 120px; */
+        cursor: pointer;
+    }
+
+    /* .toggle.active {
+        background-image: url(../images/boxiconx.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120px;
+        cursor: pointer;
+    } */
+
+    /* header.sticky .toggle {
+        filter: invert(1);
+    } */
+
+    .yeet,
+    .btn {
+        display: none;
+    }
+
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .sorry {
+        display: block;
+        color: #fff;
+        font-size: 20px;
+    }
+
 }

@@ -19,7 +19,12 @@
 <body>
     <header class="">
         <a href="#home" class="logo">Portfolio</a>
-        <div class="toggle" onclick="toggleMenu();"></div>
+        <div class="toggle"></div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
         <ul class="menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -33,10 +38,11 @@
         <div class="textBx">
             <h2>Hello, I'm <br><span>Anish Sharma</span></h2>
             <h3>Engrossed Student, Explorering Rocketry, Enjoying Cricket </h3>
+            <p class="sorry">Sorry! Mobile and Tablet versions are not available. View the full website on PC.</p>
             <a href="#about" class="btn">About Me</a>
         </div>
     </section>
-    <section class="about" id="about">
+    <section class="about yeet" id="about">
         <div class="heading">
             <h2>About Me</h2>
         </div>
@@ -81,7 +87,7 @@
             </div>
         </div>
     </section>
-    <section id="portfolio">
+    <section id="portfolio" class="yeet">
         <div class="heading">
             <h2>Portfolio</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -139,7 +145,7 @@
         </div>
     </section>
 
-    <section class="interests" id="interests">
+    <section class="interests yeet" id="interests">
         <div class="heading">
             <h2>Interests</h2>
             <p>Some of my more specific interests include robotics and competitions like FTC, <br> SpaceX and their
@@ -167,30 +173,32 @@
 
         </div>
     </section>
-    <section class="gallerywork" id="gallerywork">
+    <section class="gallerywork yeet" id="gallerywork">
         <div class="heading">
             <h2>Gallery/Work</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>My recent gallery and work</p>
         </div>
         <div class="content">
             <div class="galleryworkBx">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatibus corrupti cumque laborum
-                    a modi ex sint magni aspernatur dolores, maiores minus labore nostrum, saepe voluptate dolor
-                    architecto excepturi deserunt numquam repellat, consequatur ad non ullam debitis? Eos quam sunt
-                    alias et in modi obcaecati enim eaque. Quas, esse fuga.</p>
-                <h3>Name of Work <br><span>Date</span></h3>
+                <p>Migrations Paper - Religious Tolerance in Islamic Iberia: Peaceful Coexistence In Prosperous Society.
+                    This paper was about religious tolerance in islamic iberia, and how muslim rulers in spain created a
+                    far more succesful society in comparison to miltant rulers like Ferdinand and Isabella. <br>
+                </p>
+                <img style="width:90%; margin-top:20px;" src="images/islamiciberia.jpg" alt="Image of Islamic Iberia">
+                <h3>Anish Sharma <br><span>3/8/23</span></h3>
             </div>
             <div class="galleryworkBx">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatibus corrupti cumque laborum
-                    a modi ex sint magni aspernatur dolores, maiores minus labore nostrum, saepe voluptate dolor
-                    architecto excepturi deserunt numquam repellat, consequatur ad non ullam debitis? Eos quam sunt
-                    alias et in modi obcaecati enim eaque. Quas, esse fuga.</p>
-                <h3>Name of Work<br><span>Date</span></h3>
+                <p>Independent Lab Proposal - Rhizobia In Root Nodules on Fava Bean Plants. This lab proposal looks at
+                    the effects of taking away sources of nitrogen from a Fava bean plant and analyzing the results. The
+                    write up is organized in an introduction, methods, sources of error, and references.</p>
+                <img style="width:70%; margin-left:70px; margin-top:20px;" src="images/nitrogen-cycle.webp"
+                    alt="Image of Nitrogen Cycle">
+                <h3>Anish Sharma<br><span>3/10/23</span></h3>
             </div>
         </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section class="contact yeet" id="contact">
         <div class="heading white">
             <h2>Contact</h2>
             <p>Feel free to contact me with any questions you have.</p>
@@ -234,7 +242,7 @@
         </div>
     </section>
 
-    <div class="copyright">
+    <div class="copyright yeet">
         <p>Copyright &copy; 2023 Anish Sharma</p>
     </div>
 
@@ -246,7 +254,7 @@
 
         function toggleMenu() {
             var menuToggle = document.querySelector('.toggle');
-            menuToggle.classList.toggle('active')
+            menuToggle.classList.toggle('active');
         }
     </script>
 
